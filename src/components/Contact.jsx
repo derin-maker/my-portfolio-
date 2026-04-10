@@ -1,0 +1,18 @@
+import React from "react";
+import "./Contact.css";
+
+function Contact() {
+    return (
+        <div className="contact">
+            <form>
+                <input type="text" placeholder="Your Name"/>
+                <input type="email" placeholder="Your Email"/>
+                <textarea type="text" placeholder="Your Message"></textarea>
+
+                <button type="submit">Your Message</button>
+            </form>
+        </div>
+    );
+}
+
+export default Contact;
